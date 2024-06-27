@@ -30,3 +30,25 @@ python GUIDANCE_main.py
 ### Generating HDL Code
 
 If you need to generate another HDL language, revise the `Hdl_cfg.m` file according to your requirements.
+
+# LegoHDL Repository
+
+This repository contains the code for LegoHDL, part of the TCAD (Transactions on Computer-Aided Design of Integrated Circuits and Systems).
+
+## Directory Structure
+
+- **README.md**: Overview and instructions for the LegoHDL project.
+- **GUIDANCE_main.py**: Main script to run LegoHDL.
+- **Hdl_cfg.m**: Configuration file for generating different HDL languages.
+- **sl/**: Source code to generate CPS model
+   - **cfg.m**: Script to set up the environment.
+   - **remote.m**: Script to set up the FTP environment.
+- **Linux_test/**: test code for HDL testing(include Verilog).
+  - **test_main.py**: Script to run tests..
+- **pythonProhect/**: Main folder to run Lego
+
+## Getting Started
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/cemery123/LegoHDL.git
