@@ -1,4 +1,3 @@
-以下是润色和格式化后的Markdown文档：
 
 # LegoHDL
 
