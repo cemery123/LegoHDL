@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Jan 27 04:20:01 2024
+# Process ID: 1100288
+# Current directory: /doc/xzh
+# Command line: vivado -mode batch -source /doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/vivado_rtl2syn.tcl
+# Log file: /doc/xzh/vivado.log
+# Journal file: /doc/xzh/vivado.jou
+# Running On: user-System-Product-Name, OS: Linux, CPU Frequency: 4499.707 MHz, CPU Physical cores: 24, Host memory: 134788 MB
+#-----------------------------------------------------------
+source /doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/vivado_rtl2syn.tcl

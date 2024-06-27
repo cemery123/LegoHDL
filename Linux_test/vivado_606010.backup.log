@@ -1,0 +1,935 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Mar 11 09:00:53 2024
+# Process ID: 606010
+# Current directory: /doc/xzh
+# Command line: vivado
+# Log file: /doc/xzh/vivado.log
+# Journal file: /doc/xzh/vivado.jou
+# Running On: user-System-Product-Name, OS: Linux, CPU Frequency: 5494.294 MHz, CPU Physical cores: 24, Host memory: 134788 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kc705:part0:1.6 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kc705/1.6/board.xml as part xc7k325tffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc707:part0:1.4 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc707/1.4/board.xml as part xc7vx485tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vc709:part0:1.8 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vc709/1.8/board.xml as part xc7vx690tffg1761-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.2 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.1 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280:part0:1.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/production/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.1 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.1/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.1 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.1/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158:part0:1.1 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/production/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.1 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.1/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.2 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.1 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.1 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.1/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.2 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180:part0:1.1 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/production/1.1/board.xml as part xcvp1802-lsvc4072-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zc706:part0:1.4 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zc706/1.4/board.xml as part xc7z045ffg900-2 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /doc/Xilinx/Vivado/2023.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project /doc/wxy/work/project_1/project_1.xpr
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory '/doc/wxy/work/project_1/project_1.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/doc/Xilinx/Vivado/2023.2/data/ip'.
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files /doc/Verismith/03-06-04/fuzz_75/simulation_vivado/syn_vivado.v] -no_script -reset -force -quiet
+remove_files  /doc/Verismith/03-06-04/fuzz_75/simulation_vivado/syn_vivado.v
+cd /doc/Verismith/03-06-04/fuzz_371
+read_verilog rtl.v
+/doc/Verismith/03-06-04/fuzz_371/rtl.v
+synth_design -part xc7k70t -top top
+Command: synth_design -part xc7k70t -top top
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 610275
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 8186.961 ; gain = 230.371 ; free physical = 9248 ; free virtual = 112608
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [/doc/Verismith/03-06-04/fuzz_371/rtl.v:1]
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [/doc/Verismith/03-06-04/fuzz_371/rtl.v:1]
+WARNING: [Synth 8-3917] design top has port y[538] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[537] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[536] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[535] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[534] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[533] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[532] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[531] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[530] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[529] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[528] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[527] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[526] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[525] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[524] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[523] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[522] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[521] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[520] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[519] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[518] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[517] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[516] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[515] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[514] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[513] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[512] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[511] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[510] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[509] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[508] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[507] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[506] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[505] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[504] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[503] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[502] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[501] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[500] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[499] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[498] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[497] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[496] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[495] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[494] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[493] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[492] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[491] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[490] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[489] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[488] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[487] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[486] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[485] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[484] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[483] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[482] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[481] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[480] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[479] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[478] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[477] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[476] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[475] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[474] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[473] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[472] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[471] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[470] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[469] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[468] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[467] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[466] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[465] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[464] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[463] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[462] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[461] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[460] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[459] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[458] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[457] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[456] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[455] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[454] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[453] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[452] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[451] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[450] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[449] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[448] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[447] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[446] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[445] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[444] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[443] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[442] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[441] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[440] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[439] driven by constant 0
+INFO: [Common 17-14] Message 'Synth 8-3917' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-7129] Port y[146] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[145] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[144] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[143] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[142] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[141] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[140] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[139] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[138] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[137] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[136] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[135] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[134] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[133] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[132] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[131] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[130] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[129] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[128] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[13] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[12] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[11] in module top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 8260.930 ; gain = 304.340 ; free physical = 9112 ; free virtual = 112474
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 8278.742 ; gain = 322.152 ; free physical = 9090 ; free virtual = 112453
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbg676-3
+INFO: [Device 21-403] Loading part xc7k70tfbg676-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 8278.742 ; gain = 322.152 ; free physical = 9088 ; free virtual = 112450
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 8287.648 ; gain = 331.059 ; free physical = 9016 ; free virtual = 112379
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     21 Bit         XORs := 1     
++---Registers : 
+	               21 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   21 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 2     
+	   2 Input    6 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port y[146] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[145] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[144] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[143] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[142] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[141] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[140] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[139] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[138] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[137] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[136] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[135] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[134] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[133] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[132] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[131] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[130] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[129] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[128] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[13] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[12] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[11] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[10] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[9] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[8] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[7] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[6] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[5] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[4] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[3] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[2] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[1] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[0] in module top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 8419.102 ; gain = 462.512 ; free physical = 8308 ; free virtual = 111674
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 8422.070 ; gain = 465.480 ; free physical = 8300 ; free virtual = 111666
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 8422.070 ; gain = 465.480 ; free physical = 8299 ; free virtual = 111664
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 8428.008 ; gain = 471.418 ; free physical = 8194 ; free virtual = 111572
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 8428.008 ; gain = 471.418 ; free physical = 8194 ; free virtual = 111572
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 8428.008 ; gain = 471.418 ; free physical = 8194 ; free virtual = 111572
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 8428.008 ; gain = 471.418 ; free physical = 8194 ; free virtual = 111572
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 8428.008 ; gain = 471.418 ; free physical = 8194 ; free virtual = 111572
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 8428.008 ; gain = 471.418 ; free physical = 8194 ; free virtual = 111572
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT2  |     2|
+|3     |LUT3  |     7|
+|4     |LUT4  |     7|
+|5     |LUT5  |     7|
+|6     |LUT6  |    12|
+|7     |FDRE  |    13|
+|8     |IBUF  |    60|
+|9     |OBUF  |   520|
+|10    |OBUFT |    19|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   648|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 8428.008 ; gain = 471.418 ; free physical = 8194 ; free virtual = 111572
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 949 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 8428.008 ; gain = 471.418 ; free physical = 8194 ; free virtual = 111572
+Synthesis Optimization Complete : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 8428.016 ; gain = 471.418 ; free physical = 8194 ; free virtual = 111572
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8439.914 ; gain = 0.000 ; free physical = 8471 ; free virtual = 111848
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 8530.875 ; gain = 0.000 ; free physical = 8403 ; free virtual = 111780
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 28f4a49f
+INFO: [Common 17-83] Releasing license: Synthesis
+13 Infos, 157 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 8738.215 ; gain = 781.625 ; free physical = 8149 ; free virtual = 111527
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1979.900; main = 1979.900; forked = 0.000
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 8738.184; main = 8738.184; forked = 0.000
+design_1
+write_verilog -force syn_vivado.v
+/doc/Verismith/03-06-04/fuzz_371/syn_vivado.v
+export_ip_user_files -of_objects  [get_files /doc/Verismith/03-06-04/fuzz_75/simulation_vivado/vivado_testbench.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 /doc/Verismith/03-06-04/fuzz_75/simulation_vivado/vivado_testbench.v
+update_compile_order -fileset sim_1
+export_ip_user_files -of_objects  [get_files /doc/Verismith/03-04-02/fuzz_116/simulation_vivado/vivado_testbench.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 /doc/Verismith/03-04-02/fuzz_116/simulation_vivado/vivado_testbench.v
+export_ip_user_files -of_objects  [get_files /doc/Verismith/03-06-04/fuzz_371/rtl.v] -no_script -reset -force -quiet
+remove_files  /doc/Verismith/03-06-04/fuzz_371/rtl.v
+read_verilog rtl.v
+/doc/Verismith/03-06-04/fuzz_371/rtl.v
+synth_design -part xc7k70t -top top
+Command: synth_design -part xc7k70t -top top
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 9279.461 ; gain = 354.871 ; free physical = 7473 ; free virtual = 110935
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top' [/doc/Verismith/03-06-04/fuzz_371/rtl.v:1]
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+INFO: [Synth 8-6155] done synthesizing module 'top' (0#1) [/doc/Verismith/03-06-04/fuzz_371/rtl.v:1]
+WARNING: [Synth 8-3917] design top has port y[538] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[537] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[536] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[535] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[534] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[533] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[532] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[531] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[530] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[529] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[528] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[527] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[526] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[525] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[524] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[523] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[522] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[521] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[520] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[519] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[518] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[517] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[516] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[515] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[514] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[513] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[512] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[511] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[510] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[509] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[508] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[507] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[506] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[505] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[504] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[503] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[502] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[501] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[500] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[499] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[498] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[497] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[496] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[495] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[494] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[493] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[492] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[491] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[490] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[489] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[488] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[487] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[486] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[485] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[484] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[483] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[482] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[481] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[480] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[479] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[478] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[477] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[476] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[475] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[474] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[473] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[472] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[471] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[470] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[469] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[468] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[467] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[466] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[465] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[464] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[463] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[462] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[461] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[460] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[459] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[458] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[457] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[456] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[455] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[454] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[453] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[452] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[451] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[450] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[449] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[448] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[447] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[446] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[445] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[444] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[443] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[442] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[441] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[440] driven by constant 0
+WARNING: [Synth 8-3917] design top has port y[439] driven by constant 0
+INFO: [Common 17-14] Message 'Synth 8-3917' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-7129] Port y[146] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[145] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[144] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[143] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[142] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[141] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[140] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[139] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[138] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[137] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[136] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[135] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[134] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[133] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[132] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[131] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[130] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[129] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[128] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[13] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[12] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[11] in module top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 9363.492 ; gain = 438.902 ; free physical = 7388 ; free virtual = 110820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 9366.461 ; gain = 441.871 ; free physical = 7388 ; free virtual = 110820
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbg676-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 9366.461 ; gain = 441.871 ; free physical = 7393 ; free virtual = 110825
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 9374.469 ; gain = 449.879 ; free physical = 7384 ; free virtual = 110816
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input     21 Bit         XORs := 1     
++---Registers : 
+	               21 Bit    Registers := 1     
+	               10 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   21 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 2     
+	   2 Input    6 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port y[146] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[145] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[144] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[143] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[142] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[141] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[140] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[139] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[138] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[137] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[136] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[135] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[134] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[133] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[132] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[131] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[130] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[129] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port y[128] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[13] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[12] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[11] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[10] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[9] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[8] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[7] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[6] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[5] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[4] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[3] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[2] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[1] in module top is either unconnected or has no load
+WARNING: [Synth 8-7129] Port wire4[0] in module top is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 9400.484 ; gain = 475.895 ; free physical = 7333 ; free virtual = 110767
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 9400.484 ; gain = 475.895 ; free physical = 7329 ; free virtual = 110763
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 9400.484 ; gain = 475.895 ; free physical = 7328 ; free virtual = 110762
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 9410.484 ; gain = 485.895 ; free physical = 7292 ; free virtual = 110727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 9410.484 ; gain = 485.895 ; free physical = 7292 ; free virtual = 110727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 9410.484 ; gain = 485.895 ; free physical = 7292 ; free virtual = 110727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 9410.484 ; gain = 485.895 ; free physical = 7292 ; free virtual = 110727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 9410.484 ; gain = 485.895 ; free physical = 7292 ; free virtual = 110727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 9410.484 ; gain = 485.895 ; free physical = 7292 ; free virtual = 110727
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT2  |     2|
+|3     |LUT3  |     7|
+|4     |LUT4  |     7|
+|5     |LUT5  |     7|
+|6     |LUT6  |    12|
+|7     |FDRE  |    13|
+|8     |IBUF  |    60|
+|9     |OBUF  |   520|
+|10    |OBUFT |    19|
++------+------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 9410.484 ; gain = 485.895 ; free physical = 7292 ; free virtual = 110727
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 949 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 9410.484 ; gain = 485.895 ; free physical = 7292 ; free virtual = 110727
+Synthesis Optimization Complete : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 9410.492 ; gain = 485.895 ; free physical = 7292 ; free virtual = 110727
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9410.492 ; gain = 0.000 ; free physical = 7649 ; free virtual = 111084
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 9436.492 ; gain = 0.000 ; free physical = 8646 ; free virtual = 112082
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 28f4a49f
+INFO: [Common 17-83] Releasing license: Synthesis
+10 Infos, 157 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 9436.527 ; gain = 521.941 ; free physical = 8642 ; free virtual = 112078
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 2768.400; main = 2768.400; forked = 0.000
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 9436.496; main = 9436.496; forked = 0.000
+design_1
+write_verilog -force syn_vivado.v
+/doc/Verismith/03-06-04/fuzz_371/syn_vivado.v
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /doc/Verismith/03-06-04/fuzz_371/simulation_vivado/vivado_testbench.v
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+luanch_simulation
+invalid command name "luanch_simulation"
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'BUFHCE'
+INFO: [Vivado 12-5682] Launching behavioral simulation in '/doc/wxy/work/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from '/doc/Xilinx/Vivado/2023.2/tps/boost_1_72_0'
+INFO: [SIM-utils-54] Inspecting design source files for 'BUFHCE' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in '/doc/wxy/work/project_1/project_1.sim/sim_1/behav/xsim'
+xvlog --incr --relax -prj BUFHCE_vlog.prj
+INFO: [VRFC 10-2263] Analyzing Verilog file "/doc/Verismith/03-06-04/fuzz_371/simulation_vivado/vivado_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module NOT
+INFO: [VRFC 10-311] analyzing module NAND
+INFO: [VRFC 10-311] analyzing module NOR
+INFO: [VRFC 10-311] analyzing module DFF
+INFO: [VRFC 10-311] analyzing module DFFSR
+INFO: [VRFC 10-311] analyzing module dffeas
+INFO: [VRFC 10-311] analyzing module cyclonev_lcell_comb
+INFO: [VRFC 10-311] analyzing module cyclonev_clkena
+INFO: [VRFC 10-311] analyzing module cyclonev_io_ibuf
+INFO: [VRFC 10-311] analyzing module cyclonev_io_obuf
+INFO: [VRFC 10-311] analyzing module cyclone10lp_lcell_comb
+INFO: [VRFC 10-311] analyzing module cyclone10lp_io_ibuf
+INFO: [VRFC 10-311] analyzing module cyclone10lp_io_obuf
+INFO: [VRFC 10-311] analyzing module cyclone10lp_clkena
+INFO: [VRFC 10-311] analyzing module cyclone10gx_lcell_comb
+INFO: [VRFC 10-311] analyzing module cyclone10gx_io_ibuf
+INFO: [VRFC 10-311] analyzing module cyclone10gx_io_obuf
+INFO: [VRFC 10-311] analyzing module cyclone10gx_clkena
+INFO: [VRFC 10-311] analyzing module VERIFIC_FADD
+INFO: [VRFC 10-311] analyzing module VERIFIC_DFFRS
+INFO: [VRFC 10-311] analyzing module IBUF
+INFO: [VRFC 10-311] analyzing module OBUF
+INFO: [VRFC 10-311] analyzing module OBUFT
+INFO: [VRFC 10-311] analyzing module GND
+INFO: [VRFC 10-311] analyzing module INV
+INFO: [VRFC 10-311] analyzing module LUT1
+INFO: [VRFC 10-311] analyzing module LUT2
+INFO: [VRFC 10-311] analyzing module LUT3
+INFO: [VRFC 10-311] analyzing module LUT4
+INFO: [VRFC 10-311] analyzing module LUT5
+INFO: [VRFC 10-311] analyzing module LUT6
+INFO: [VRFC 10-311] analyzing module MUXCY
+INFO: [VRFC 10-311] analyzing module MUXF7
+INFO: [VRFC 10-311] analyzing module MUXF8
+INFO: [VRFC 10-311] analyzing module VCC
+INFO: [VRFC 10-311] analyzing module XORCY
+INFO: [VRFC 10-311] analyzing module CARRY4
+INFO: [VRFC 10-311] analyzing module FD_1
+INFO: [VRFC 10-311] analyzing module FDC_1
+INFO: [VRFC 10-311] analyzing module FDCE_1
+INFO: [VRFC 10-311] analyzing module FDCE
+INFO: [VRFC 10-311] analyzing module FDCP_1
+INFO: [VRFC 10-311] analyzing module FDCPE_1
+INFO: [VRFC 10-311] analyzing module FDCPE
+INFO: [VRFC 10-311] analyzing module FDCP
+INFO: [VRFC 10-311] analyzing module FDC
+INFO: [VRFC 10-311] analyzing module FDDRCPE
+INFO: [VRFC 10-311] analyzing module FDDRRSE
+INFO: [VRFC 10-311] analyzing module FDE_1
+INFO: [VRFC 10-311] analyzing module FDE
+INFO: [VRFC 10-311] analyzing module FDP_1
+INFO: [VRFC 10-311] analyzing module FDPE_1
+INFO: [VRFC 10-311] analyzing module FDPE
+INFO: [VRFC 10-311] analyzing module FDP
+INFO: [VRFC 10-311] analyzing module FDR_1
+INFO: [VRFC 10-311] analyzing module FDRE_1
+INFO: [VRFC 10-311] analyzing module FDRE
+INFO: [VRFC 10-311] analyzing module FDRS_1
+INFO: [VRFC 10-311] analyzing module FDRSE_1
+INFO: [VRFC 10-311] analyzing module FDRSE
+INFO: [VRFC 10-311] analyzing module FDRS
+INFO: [VRFC 10-311] analyzing module FDR
+INFO: [VRFC 10-311] analyzing module FDS_1
+INFO: [VRFC 10-311] analyzing module FDSE_1
+INFO: [VRFC 10-311] analyzing module FDSE
+INFO: [VRFC 10-311] analyzing module FDS
+INFO: [VRFC 10-311] analyzing module FD
+INFO: [VRFC 10-311] analyzing module LD_1
+INFO: [VRFC 10-311] analyzing module LDC_1
+INFO: [VRFC 10-311] analyzing module LDCE_1
+INFO: [VRFC 10-311] analyzing module LDCE
+INFO: [VRFC 10-311] analyzing module LDCP_1
+INFO: [VRFC 10-311] analyzing module LDCPE_1
+INFO: [VRFC 10-311] analyzing module LDCPE
+INFO: [VRFC 10-311] analyzing module LDCP
+INFO: [VRFC 10-311] analyzing module LDC
+INFO: [VRFC 10-311] analyzing module LDE_1
+INFO: [VRFC 10-311] analyzing module LDE
+INFO: [VRFC 10-311] analyzing module LDP_1
+INFO: [VRFC 10-311] analyzing module LDPE_1
+INFO: [VRFC 10-311] analyzing module LDPE
+INFO: [VRFC 10-311] analyzing module LDP
+INFO: [VRFC 10-311] analyzing module LD
+INFO: [VRFC 10-311] analyzing module BUFCF
+INFO: [VRFC 10-311] analyzing module BUFE
+INFO: [VRFC 10-311] analyzing module BUFGCE_1
+INFO: [VRFC 10-311] analyzing module BUFGCE
+INFO: [VRFC 10-311] analyzing module BUFGCTRL
+INFO: [VRFC 10-311] analyzing module BUFG_LB
+INFO: [VRFC 10-311] analyzing module BUFGMUX_1
+INFO: [VRFC 10-311] analyzing module BUFGMUX_CTRL
+INFO: [VRFC 10-311] analyzing module BUFGMUX
+INFO: [VRFC 10-311] analyzing module BUFGMUX_VIRTEX4
+INFO: [VRFC 10-311] analyzing module BUFGP
+INFO: [VRFC 10-311] analyzing module BUFG
+INFO: [VRFC 10-311] analyzing module BUFHCE
+INFO: [VRFC 10-311] analyzing module BUFH
+INFO: [VRFC 10-311] analyzing module BUFIO2FB
+INFO: [VRFC 10-311] analyzing module BUFIODQS
+INFO: [VRFC 10-311] analyzing module BUFIO
+INFO: [VRFC 10-311] analyzing module BUFMRCE
+INFO: [VRFC 10-311] analyzing module BUFMR
+INFO: [VRFC 10-311] analyzing module BUFT
+INFO: [VRFC 10-311] analyzing module BUF
+INFO: [VRFC 10-311] analyzing module $_DLATCH_N_
+INFO: [VRFC 10-311] analyzing module $_DLATCH_P_
+INFO: [VRFC 10-311] analyzing module module9
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-311] analyzing module testbench
+Waiting for jobs to finish...
+No pending jobs, compilation finished.
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/doc/wxy/work/project_1/project_1.sim/sim_1/behav/xsim'
+xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BUFHCE_behav xil_defaultlib.BUFHCE xil_defaultlib.glbl -log elaborate.log
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: /doc/Xilinx/Vivado/2023.2/bin/unwrapped/lnx64.o/xelab --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot BUFHCE_behav xil_defaultlib.BUFHCE xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "/doc/wxy/work/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+WARNING: [XSIM 43-4100] "/doc/wxy/work/project_1/project_1.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.BUFGMUX
+Compiling module xil_defaultlib.INV
+Compiling module xil_defaultlib.BUFGMUX_1
+Compiling module xil_defaultlib.BUFHCE
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot BUFHCE_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/doc/wxy/work/project_1/project_1.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "BUFHCE_behav -key {Behavioral:sim_1:Functional:BUFHCE} -tclbatch {BUFHCE.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+source BUFHCE.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'BUFHCE_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Mar 11 09:05:29 2024...

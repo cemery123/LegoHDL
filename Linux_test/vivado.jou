@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Mon Mar 11 09:14:39 2024
+# Process ID: 645602
+# Current directory: /doc/xzh
+# Command line: vivado
+# Log file: /doc/xzh/vivado.log
+# Journal file: /doc/xzh/vivado.jou
+# Running On: user-System-Product-Name, OS: Linux, CPU Frequency: 5500.000 MHz, CPU Physical cores: 24, Host memory: 134788 MB
+#-----------------------------------------------------------
+start_gui
+open_project /doc/wxy/work/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files /doc/Verismith/03-06-04/fuzz_371/rtl.v] -no_script -reset -force -quiet
+remove_files  /doc/Verismith/03-06-04/fuzz_371/rtl.v
+export_ip_user_files -of_objects  [get_files /doc/Verismith/03-06-04/fuzz_371/simulation_vivado/vivado_testbench.v] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 /doc/Verismith/03-06-04/fuzz_371/simulation_vivado/vivado_testbench.v
+add_files -norecurse /doc/verismith/fuzz_11/rtl.v
+reset_run synth_1
+launch_runs synth_1 -jobs 16
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse /doc/verismith/fuzz_11/simulation_vivado/vivado_testbench.v
+launch_simulation
+source BUFHCE.tcl
+close_sim

@@ -1,0 +1,291 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:13:54 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Sat Jan 27 04:20:01 2024
+# Process ID: 1100288
+# Current directory: /doc/xzh
+# Command line: vivado -mode batch -source /doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/vivado_rtl2syn.tcl
+# Log file: /doc/xzh/vivado.log
+# Journal file: /doc/xzh/vivado.jou
+# Running On: user-System-Product-Name, OS: Linux, CPU Frequency: 4499.707 MHz, CPU Physical cores: 24, Host memory: 134788 MB
+#-----------------------------------------------------------
+source /doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/vivado_rtl2syn.tcl
+# read_verilog /doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/Subsystem.v
+# synth_design -part xc7k70t -top Subsystem
+Command: synth_design -part xc7k70t -top Subsystem
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k70t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1100360
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1701.945 ; gain = 417.633 ; free physical = 118305 ; free virtual = 124925
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Subsystem' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/Subsystem.v:75]
+INFO: [Synth 8-6157] synthesizing module 'cfblk127' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk127.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk127' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk127.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk16' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk16.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk16' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk16.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk136' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk136.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Increment_Real_World' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/Increment_Real_World.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Increment_Real_World' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/Increment_Real_World.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Wrap_To_Zero' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/Wrap_To_Zero.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Wrap_To_Zero' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/Wrap_To_Zero.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk136' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk136.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk57' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk57.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk57' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk57.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk12' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk12.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Positive' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/Positive.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Positive' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/Positive.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk12' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk12.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk145' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk145.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk145' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk145.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk146' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk146.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk146' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk146.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk126' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk126.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk126' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk126.v:22]
+INFO: [Synth 8-6157] synthesizing module 'DotProduct_block1' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/DotProduct_block1.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'DotProduct_block1' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/DotProduct_block1.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk31' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk31.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk31' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk31.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk78' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk78.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk78' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk78.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk4' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk4.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Nonpositive' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/Nonpositive.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Nonpositive' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/Nonpositive.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk4' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk4.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk56' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk56.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk56' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk56.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk150' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk150.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk150' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk150.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk82' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk82.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk82' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk82.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk139' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk139.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk139' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk139.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk148' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk148.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk148' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk148.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk9' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk9.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Nonnegative_block1' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/Nonnegative_block1.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Nonnegative_block1' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/Nonnegative_block1.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk9' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk9.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk143' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk143.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk143' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk143.v:22]
+INFO: [Synth 8-6157] synthesizing module 'DotProduct' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/DotProduct.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'DotProduct' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/DotProduct.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk3' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk3.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Nonnegative_block' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/Nonnegative_block.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Nonnegative_block' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/Nonnegative_block.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk3' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk3.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk138' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk138.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk138' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk138.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk140' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk140.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk140' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk140.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk10' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk10.v:22]
+INFO: [Synth 8-6157] synthesizing module 'Nonnegative' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/Nonnegative.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Nonnegative' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/Nonnegative.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk10' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk10.v:22]
+INFO: [Synth 8-6157] synthesizing module 'cfblk147' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk147.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'cfblk147' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/cfblk147.v:22]
+INFO: [Synth 8-6157] synthesizing module 'DotProduct_block' [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/DotProduct_block.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'DotProduct_block' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/DotProduct_block.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Subsystem' (0#1) [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/Subsystem.v:75]
+WARNING: [Synth 8-6014] Unused sequential element cfblk166_reg_reg[0] was removed.  [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/Subsystem.v:624]
+WARNING: [Synth 8-6014] Unused sequential element cfblk166_reg_reg[1] was removed.  [/doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/Subsystem.v:624]
+WARNING: [Synth 8-7129] Port u[7] in module Nonnegative is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[6] in module Nonnegative is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[5] in module Nonnegative is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[4] in module Nonnegative is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[3] in module Nonnegative is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[2] in module Nonnegative is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[1] in module Nonnegative is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[0] in module Nonnegative is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[7] in module Nonnegative_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[6] in module Nonnegative_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[5] in module Nonnegative_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[4] in module Nonnegative_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[3] in module Nonnegative_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[2] in module Nonnegative_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[1] in module Nonnegative_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[0] in module Nonnegative_block is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[7] in module Nonnegative_block1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[6] in module Nonnegative_block1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[5] in module Nonnegative_block1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[4] in module Nonnegative_block1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[3] in module Nonnegative_block1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[2] in module Nonnegative_block1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[1] in module Nonnegative_block1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port u[0] in module Nonnegative_block1 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1778.914 ; gain = 494.602 ; free physical = 118206 ; free virtual = 124827
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1793.758 ; gain = 509.445 ; free physical = 118206 ; free virtual = 124827
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k70tfbg676-3
+INFO: [Device 21-403] Loading part xc7k70tfbg676-3
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1801.762 ; gain = 517.449 ; free physical = 118205 ; free virtual = 124826
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1817.777 ; gain = 533.465 ; free physical = 118189 ; free virtual = 124812
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   16 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 15    
++---Registers : 
+	               16 Bit    Registers := 1     
+	                8 Bit    Registers := 8     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input    8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design Subsystem has port Hdl_out[7] driven by constant 0
+WARNING: [Synth 8-3917] design Subsystem has port Hdl_out[6] driven by constant 0
+WARNING: [Synth 8-3917] design Subsystem has port Hdl_out[5] driven by constant 0
+WARNING: [Synth 8-3917] design Subsystem has port Hdl_out[4] driven by constant 0
+WARNING: [Synth 8-3917] design Subsystem has port Hdl_out[3] driven by constant 0
+WARNING: [Synth 8-3917] design Subsystem has port Hdl_out[2] driven by constant 0
+WARNING: [Synth 8-3917] design Subsystem has port Hdl_out[1] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1926.246 ; gain = 641.934 ; free physical = 118078 ; free virtual = 124703
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1929.215 ; gain = 644.902 ; free physical = 118076 ; free virtual = 124701
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1929.215 ; gain = 644.902 ; free physical = 118076 ; free virtual = 124701
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1929.215 ; gain = 644.902 ; free physical = 118075 ; free virtual = 124700
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1929.215 ; gain = 644.902 ; free physical = 118075 ; free virtual = 124700
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1929.215 ; gain = 644.902 ; free physical = 118075 ; free virtual = 124700
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1929.215 ; gain = 644.902 ; free physical = 118075 ; free virtual = 124700
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1929.215 ; gain = 644.902 ; free physical = 118075 ; free virtual = 124700
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1929.215 ; gain = 644.902 ; free physical = 118075 ; free virtual = 124700
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |BUFG |     1|
+|2     |LUT1 |     1|
+|3     |LUT2 |     1|
+|4     |FDCE |     1|
+|5     |IBUF |     3|
+|6     |OBUF |     9|
++------+-----+------+
+
+Report Instance Areas: 
++------+-----------+-------+------+
+|      |Instance   |Module |Cells |
++------+-----------+-------+------+
+|1     |top        |       |    16|
+|2     |  u_cfblk9 |cfblk9 |     3|
++------+-----------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1929.215 ; gain = 644.902 ; free physical = 118075 ; free virtual = 124700
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 34 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1929.215 ; gain = 644.902 ; free physical = 118075 ; free virtual = 124700
+Synthesis Optimization Complete : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1929.223 ; gain = 644.902 ; free physical = 118075 ; free virtual = 124700
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1942.090 ; gain = 0.000 ; free physical = 118353 ; free virtual = 124977
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2076.805 ; gain = 0.000 ; free physical = 118277 ; free virtual = 124902
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: c2f3cfac
+INFO: [Common 17-83] Releasing license: Synthesis
+78 Infos, 34 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 2076.840 ; gain = 796.516 ; free physical = 118277 ; free virtual = 124902
+INFO: [Common 17-2834] synth_design peak Physical Memory [PSS] (MB): overall = 1346.555; main = 1346.555; forked = 0.000
+INFO: [Common 17-2834] synth_design peak Virtual Memory [VSS] (MB): overall = 2076.809; main = 2076.809; forked = 0.000
+# write_verilog -force /doc/xzh/resamplesource/Verilog_hdlsrc/sampleModel296_sub/Subsystem_vivado.v
+INFO: [Common 17-206] Exiting Vivado at Sat Jan 27 04:20:12 2024...
